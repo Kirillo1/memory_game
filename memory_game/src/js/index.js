@@ -108,13 +108,13 @@ const attachEventListener = () => {
 				// получаем цель события (элемент по которому произошел клик)
 				// и его родительский элемент
 				const eventTarget = event.target;
-				const eventParent = eventTarget.parentElement
+				const eventParent = eventTarget.closest('.card');
 
 				// если родитель содержит класс "card" и он еще не перевернут
 				// вызываем функцию flipCard()
 				if (
 					eventParent.classList.contains('card') &&
-					!eventParent.classList.includes('flipped')
+					!eventParent.classList.contains('flipped')
 				) {
 					flipCard(eventParent);
 				}
