@@ -1,23 +1,39 @@
- <div>
-  <h1>Memory game app</h1>
-  <p>Simple game.</p>
-</div>
+# Memory Game
 
-## Instructions 📋
+Учебный проект, реализующий простую игру на запоминание карточек.  
+Проект создан в процессе изучения основ **HTML, CSS и JavaScript (ES6)**, а также инструментов сборки на базе **Vite**.  
 
-- Download application
-- Download [`NodeJS`](https://nodejs.org/en)
-- Run terminal inside this folder
-- Run npm install for install dependencies
-- After that, run `npm run dev` for running the project
+---
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+## Цель проекта
 
-## Technologies used
+> Этот проект разработан на этапе обучения фронтенд-разработке.  
+> Использовался для практики работы с DOM, событиями, состоянием приложения и базовой логикой на JavaScript.  
 
-This project follows a custom structure that combines the following:
+---
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Vite
+## Функционал
+
+- Переворачивание карточек с анимацией  
+- Проверка совпадений между карточками  
+- Счётчик попыток и таймер  
+- Возможность начать игру заново  
+
+---
+
+## Технологии
+
+- **HTML5**  
+- **CSS3 (Flexbox, Grid)**  
+- **JavaScript (ES6)**  
+- **Vite** — для сборки и запуска проекта  
+
+---
+
+## 🚀 Как запустить проект локально
+
+```bash
+git clone https://github.com/Kirillo1/memory-game.git
+cd memory-game
+npm install
+npm run dev
